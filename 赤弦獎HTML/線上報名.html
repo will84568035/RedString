@@ -1,0 +1,141 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/線上報名style.css">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <script src="main.js"></script>
+    <title>RedString 線上報名</title>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <a href="../index.html"><img class="header_img" src="../picture/list-header.png"></a>
+        </header>
+
+        <nav class="navi">
+            <section class="navi_content">                    
+                <a class="navi_link_animation" href="../赤弦獎HTML/關於赤弦.html">關於赤弦</a>
+                <a class="navi_link_animation" href="../赤弦獎HTML/評審資訊.html">評審資訊</a>
+                <a class="navi_link_animation" href="../赤弦獎HTML/比賽規則.html">比賽規則</a>
+                <a class="navi_link_animation" href="../赤弦獎HTML/贊助廠商.html">贊助廠商</a>
+                <a class="navi_link_animation" href="../赤弦獎HTML/線上報名.html">線上報名</a>
+                <a class="navi_link_animation" href="../赤弦獎HTML/聯絡我們.html">聯絡我們</a>
+            </section>
+        </nav>
+        
+        <article class="article">
+            <section class="article_title">
+                <p class="article_title_Main">線上報名</p>
+                <p class="article_title_Sub">Oline Registration</p>
+            </section>
+                
+            <section class="article_Registration">
+                <div class="article_Registration_ContestType">
+                        <label class="Contest_lable" for="Contest">報名組別</label>
+                        <select name="Contest" id="Contest">
+                                
+                            <option value="high_play">高中演奏組</option>
+                            <option value="high_sing">高中彈唱組</option>
+                            <option value="college_group">大專團體組</option>
+                            <option value="college_play">大專演奏組</option>
+                            <option value="college_personal">大專個人組</option>
+                            <option value="college_creation">大專創作組</option>
+                        </select>
+                </div>
+            </section>
+
+            <div class="article_splitLine"></div>
+
+            <section class="article_ContestData">
+                <p class="article_ContestData_title">參賽資料</p>
+                <div class="article_ContestData_Input">
+                    <div class="two_ContestData_Input">
+                        <div class="one_ContestData_Input">
+                                <label class="Input_label" for="song">歌曲</label>
+                                <input style="width: 300px" id="somg" name="song" type="text"><br>
+                        </div>
+                        
+                        <div class="one_ContestData_Input">
+                                <label class="Input_label" for="singer">原唱</label>
+                                <input style="width: 300px" id="singer" name="singer" type="text"><br>
+                        </div>
+                        
+                    </div>
+                    
+                    <div class="two_ContestData_Input">
+                        <div class="one_ContestData_Input">
+                                <label class="Input_label" for="demo">DEMO連結</label>
+                                <input style="width: 300px" id="demo" name="demo" type="text"><br>
+                        </div>
+        
+                        <div class="one_ContestData_Input">
+                                <label class="Input_label" for="streetVoice">StreetVoice帳號</label>
+                                <input style="width: 300px" id="streetVoice" name="streetVoice" type="text"><br>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="article_splitLine"></div>
+
+            <section class="article_Contestants">
+                <p class="article_Contestants_title">參賽者資料</p>
+                <div class="article_Contestants_Input">
+                    <div class="two_Contestants_Input">
+                        <div class="one_Contestants_Input2">
+                            <label class="Input_label" for="name">姓名</label>
+                            <input style="width: 180px" id="name" name="name" type="text"><br>
+                        </div>
+                        
+                        <div class="one_Contestants_Input2">
+                            <label class="Input_label" for="school">學校</label>
+                            <input style="width: 180px" id="school" name="school" type="text"><br>
+                        </div>
+                        
+                        <div class="one_Contestants_Input2">
+                            <label class="Input_label" for="department">系級</label>
+                            <input style="width: 180px" id="department" name="department" type="text"><br>
+                        </div>
+                    </div>
+                    
+                    <div class="two_Contestants_Input">
+                        <div class="one_Contestants_Input">
+                            <label class="Input_label" for="phone">連絡電話</label>
+                            <input style="width: 300px" id="phone" name="phone" type="text"><br>
+                        </div>
+                        
+                        <div class="one_Contestants_Input">
+                            <label class="Input_label" for="email">電子信箱</label>
+                            <input style="width: 300px" id="email" name="email" type="text"><br>
+                        </div>
+                    </div>         
+                </div>
+            </section>
+
+            <div class="article_splitLine"></div>
+
+            <section class="article_Submit">
+                <br><input class="Add_btn" type="submit" value="新增團員"><br>
+
+                <div class="One_checke">
+                    <input id="Rules" name="Accepted" type="checkbox" value="Rules">
+                    <label class="checke_label"  for="Rules">我已詳閱第18屆赤弦獎報名須知，並同意所有比賽規則</label><br>
+                </div>
+
+                <div class="One_checke">
+                    <input id="PortraitRight" name="Accepted" type="checkbox" value="PortraitRight">
+                    <label class="checke_label" for="PortraitRight">我授予第18屆赤弦獎本人的所有肖像使用權</label><br>
+                </div>
+
+                <br><input class="Submit_btn" type="submit" value="送出表單"><br>
+            </section>
+        </article>
+        <footer class="footer">
+            <p>2019 赤弦獎 | Designed by:Kai Lin | Made by:Will Chen</p>
+        </footer>
+    </div>
+</body>
+</html>

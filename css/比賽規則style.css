@@ -1,0 +1,107 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body{
+    width: 100%;
+    background-color:rgb(247, 247, 247);
+    font-size: 1.25em;
+    font-family: 'cwTeXYen', sans-serif;
+    color:rgb(80, 80, 80);
+    line-height: 1.15em
+}
+
+/*header*/
+.header_img{
+    width: 100%;
+}
+/*navi*/
+.navi{
+    width: 100%;
+    height:60px ;
+    background-color: rgb(247, 247, 247); 
+    border-top: solid rgb(137,137,137) 1px;
+    border-bottom: solid rgb(137,137,137) 1px;
+}
+
+.navi_content{
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+a{  
+    text-decoration-line: none;
+    color:rgb(80, 80, 80);
+}
+
+.navi_link_animation::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background:rgb(80, 80, 80);
+    transition: width .4s;
+}
+
+.navi_link_animation:hover::after{
+    width: 100%;
+}
+/*article*/
+.article_title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.article_title_Main{
+    margin-top: 70px;
+    margin-bottom: 20px;
+    font-size: 2.8em;
+}
+
+.article_title_Sub{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 1em;
+}
+
+.article_content{
+    display: flex;
+    flex-direction: row ;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    line-height: 40px;
+}
+.article_content_rule{
+    width: 60%;
+}
+.article_content_img{
+    width: 20%;
+    display: flex;
+    align-items: flex-end;
+}
+
+.rule-img{
+    width: 200px;
+    margin-bottom:200px; 
+}
+
+.footer{
+    background-color:rgb(239, 239, 239);
+    font-size: 0.75em;
+    border-top: solid rgb(137,137,137) 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    font-size: 1.2em;
+    font-weight: 600;
+}

@@ -1,0 +1,224 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+
+body{
+    width: 100%;
+    background-color:rgb(247, 247, 247);
+    font-size: 1.25em;
+    font-family: 'cwTeXYen', sans-serif;
+    color:rgb(80, 80, 80);
+}
+
+input{
+    height: 1.4em;
+    font-size: 1.4em;
+    border-radius: 8px;
+    background-color: rgb(239, 239, 239);
+    border: solid 0.5px rgb(137,137,137);    
+}
+
+.Input_label{
+    font-size: 1.4em;
+    margin-bottom: 0px;
+}
+
+select{
+    height: 1.4em;
+    font-size: 1.4em;
+    border-radius: 8px;
+    background-color: rgb(239, 239, 239);
+    border: solid 0.5px rgb(137,137,137);   
+}
+
+/*header*/
+.header_img{
+    width: 100%;
+}
+/*navi*/
+.navi{
+    width: 100%;
+    height:60px ;
+    background-color: rgb(247, 247, 247); 
+    border-top: solid rgb(137,137,137) 1px;
+    border-bottom: solid rgb(137,137,137) 1px;
+
+}
+
+.navi_content{
+    margin-left: 18%;
+    margin-right: 18%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+a{  
+    text-decoration-line: none;
+    color:rgb(80, 80, 80);
+}
+
+.navi_link_animation::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 1px;
+    background:rgb(80, 80, 80);
+    transition: width .4s;
+}
+
+.navi_link_animation:hover::after{
+    width: 100%;
+}
+/*article內文標題*/
+.article_title{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*article內文_報名組別*/
+.article_Registration_ContestType{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#Contest{
+    color: rgb(80, 80, 80);
+}
+.Contest_lable{
+    font-size: 1.4em;
+    margin-right: 20px;
+    
+}
+
+/*article內文_參賽資料*/
+.article_ContestData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.article_ContestData_title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.8em;
+}
+
+.two_ContestData_Input{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.one_ContestData_Input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+/*article內文_參賽者資料*/
+.article_Contestants{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.article_Contestants_title{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.8em;
+}
+
+.two_Contestants_Input{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.one_Contestants_Input{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.one_Contestants_Input2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 32px;
+}
+
+
+
+/*繳交表單*/
+.article_Submit{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/*article內文標題*/
+.article_title_Main{
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 2.8em;
+}
+.One_checke{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.checke_label{
+    margin-left: 15px;
+    font-size: 1em;
+}
+
+input[type=checkbox] {
+    width: 22px;
+    height: 22px;
+}
+
+.Add_btn{
+    width: 100px;
+    height: 40px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color:  rgb(80, 80, 80);
+}
+
+.Submit_btn{
+    width: 160px;
+    height: 55px;
+    font-size: 1.4em;
+    margin-bottom: 30px;
+    color: rgb(80, 80, 80);
+}
+
+
+.article_title_Sub{
+    margin-top: 0px;
+    margin-bottom: 40px;
+    font-size: 1em;
+}
+
+.article_splitLine{
+    width: 70%;
+    height: 1px;
+    margin-left: 15%;
+    background-color:rgb(137,137,137);
+}
+
+/*footer*/
+.footer{
+    background-color:rgb(239, 239, 239);
+    font-size: 0.75em;
+    border-top: solid rgb(137,137,137) 1px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
